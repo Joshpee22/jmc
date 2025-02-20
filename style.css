@@ -91,36 +91,29 @@ nav .fa {
   .text-box h1 {
     font-size: 20px;
   }
-
   .nav-links ul li {
     display: block;
   }
-
   .nav-links {
     position: absolute;
-    top: -800px; /* Initially hidden */
-    right: 0;
-    width: 200px;
-    height: 100vh;
-    background-color: #1893c4;
-    transition: top 0.5s ease; /* Smooth transition */
-    z-index: 5; /* Ensures menu is above content */
+  top: -800px; /* Initially hidden */
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  
+  transition: top 0.5s ease; /* Smooth transition */
   }
-
   nav .fa {
     display: block;
     color: #fff;
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
-    z-index: 10; /* Ensure the icon is above the menu */
   }
-
   .nav-links ul {
     padding: 30px;
   }
 }
-
 
 /* course */
 
